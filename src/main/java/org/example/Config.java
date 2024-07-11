@@ -18,7 +18,7 @@ public class Config {
 
     private Config() {
         Properties properties = new Properties();
-        try (InputStream inputStream = new FileInputStream("application.properties")) {
+        try (InputStream inputStream = new FileInputStream("src/main/resources/application.properties")) {
             properties.load(inputStream);
             this.url = properties.getProperty("url");
             this.username = properties.getProperty("username");
