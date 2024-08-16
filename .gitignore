@@ -39,3 +39,6 @@ build/
 
 src/main/resources/application.properties
 .idea
+
+.mvn/wrapper/maven-wrapper.jar
+.env
